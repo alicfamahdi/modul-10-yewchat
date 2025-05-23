@@ -1,3 +1,11 @@
+# Tutorial 10: YewChat
+### 3.1: Original code
+![Two users, Vincent and Thomas, chatting](readme_3_1.png)
+
+### 3.2: Be Creative!
+![Two users, Walter and Jesse, chatting. Walter has light mode and Jesse has dark mode](readme_3_2.png)
+As the original interface is wildly bright, I decided to make a dark mode version for my YewChat. The toggle is represented with a moon and sun icon. The transition between modes are also smooth.
+
 # YewChat 💬
 
 > Source code for [Let’s Build a Websocket Chat Project With Rust and Yew 0.19 🦀](https://fsjohnny.medium.com/lets-build-a-websockets-project-with-rust-and-yew-0-19-60720367399f)

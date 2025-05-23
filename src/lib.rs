@@ -19,6 +19,7 @@ pub type User = Rc<UserInner>;
 #[derive(Debug, PartialEq)]
 pub struct UserInner {
     pub username: RefCell<String>,
+    pub bio: RefCell<String>,
 }
 
 // When the `wee_alloc` feature is enabled, this uses `wee_alloc` as the global
@@ -54,6 +55,7 @@ fn main() -> Html {
     let ctx = use_state(|| {
         Rc::new(UserInner {
             username: RefCell::new("initial".into()),
+            bio: RefCell::new("initial".into()),
         })
     });
 
